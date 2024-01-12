@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:windowBackground"
+    android:clickable="true"
+    android:paddingTop="@dimen/activity_status_bar_margin"
+    tools:context=".activity.LoginActivity">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/activity_fab_margin"
+        android:src="@drawable/logo" />
+
+    <kz.fe.novocards_android.ui.base.custom.UnderlineTextView
+        android:id="@+id/sign_in_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="@dimen/activity_fab_margin"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="@dimen/activity_fab_margin"
+        android:fontFamily="@font/sfp_regular"
+        android:background="@drawable/background_pressed_state"
+        android:text="@string/sign_up"
+        android:textColor="?fabColorNormal"
+        android:textSize="@dimen/font_size_medium" />
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoImageView"
+        android:layout_margin="@dimen/activity_fab_margin"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:fontFamily="@font/sfp_ultralight"
+        android:text="@string/log_in"
+        android:textColor="?android:textColorPrimary"
+        android:textSize="@dimen/font_size_extra_large">
+
+        <requestFocus />
+    </TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailEditTextContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTextView"
+        android:layout_marginLeft="@dimen/activity_fab_margin"
+        android:layout_marginRight="@dimen/activity_fab_margin"
+        android:textColorHint="?android:textColorPrimary"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintTextAppearance="@style/HintInputTextAppearance">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/emailEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_bg"
+            android:fontFamily="@font/sfp_regular"
+            android:hint="@string/email_login"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:paddingStart="0dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="@style/InputTextAppearance"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="@android:color/transparent"
+            tools:text="123" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passEditTextContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailEditTextContainer"
+        android:layout_marginLeft="@dimen/activity_fab_margin"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="@dimen/activity_fab_margin"
+        android:layout_marginBottom="@dimen/activity_margin_medium"
+        android:textColorHint="?android:textColorPrimary"
+        app:errorTextAppearance="@style/ErrorTextAppearance"
+        app:hintTextAppearance="@style/HintInputTextAppearance">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/passEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/edt_bg"
+            android:fontFamily="@font/sfp_regular"
+            android:hint="@string/pass_login"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLength="20"
+            android:paddingStart="0dp"
+            android:paddingTop="10dp"
+            android:paddingEnd="0dp"
+            android:paddingBottom="10dp"
+            android:textAppearance="@style/InputTextAppearance"
+            android:textColor="?android:textColorPrimary"
+            android:textColorHint="@android:color/transparent" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/togglePassVisibility"
+        style="@style/HintInputTextAppearance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/passEditTextContainer"
+        android:layout_alignEnd="@id/passEditTextContainer"
+        android:layout_alignBottom="@id/passEditTextContainer"
+        android:gravity="end|center_vertical"
+        android:text="@string/show_pass"
+        android:textColor="#888498"
+        android:textSize="12sp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/termsCheckContainer">
+
+        <TextView
+            android:id="@+id/forgotPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/activity_fab_margin"
+            android:layout_marginRight="@dimen/activity_fab_margin"
+            android:fontFamily="@font/sfp_light"
+            android:text="@string/forgot_pass"
+            android:background="@drawable/background_pressed_state"
+            android:textColor="?android:textColorTertiary"
+            android:textSize="@dimen/font_size_normal" />
+
+        <Button
+            android:id="@+id/nextScreenButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/signInUpTextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toStartOf="@id/nextScreenButton"
+            android:enabled="false"
+            android:fontFamily="@font/sfp_light"
+            android:text="@string/enter"
+            android:textColor="?android:textColorTertiary"
+            android:textSize="@dimen/font_size_normal" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="@dimen/activity_fab_margin"
+        android:layout_marginBottom="65dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="@dimen/activity_fab_margin"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/background_pressed_state"
+        android:padding="2dp"
+        android:fontFamily="@font/sfp_regular"
+        android:text="@string/via_phone"
+        android:textColor="?fabColorNormal"
+        android:textSize="@dimen/font_size_medium" />
+
+    <LinearLayout
+        android:id="@+id/termsCheckContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passEditTextContainer"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        tools:visibility="visible">
+
+        <CheckBox
+            android:id="@+id/acceptCheckBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            tools:button="@drawable/check_marker" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/sfp_light"
+            android:text="@string/i_accept"
+            android:textColor="?android:textColorPrimary"
+            android:textSize="@dimen/font_size_normal" />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/termsAndConditionsButton"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/activity_margin_small"
+                android:layout_marginEnd="@dimen/activity_margin_small"
+                android:background="@drawable/background_pressed_state"
+                android:fontFamily="@font/sfp_light"
+                android:text="@string/terms_and_conditions"
+                android:textAllCaps="false"
+                android:textColor="?android:textColorPrimary"
+                android:textSize="@dimen/font_size_normal" />
+
+            <View
+                style="@style/borderLine"
+                android:layout_below="@+id/termsAndConditionsButton"
+                android:layout_alignStart="@+id/termsAndConditionsButton"
+                android:layout_alignEnd="@+id/termsAndConditionsButton" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
