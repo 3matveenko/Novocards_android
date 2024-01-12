@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<declare-styleable name="CardImageView">
+		<attr name="show_name" format="boolean" />
+		<attr name="show_date" format="boolean" />
+		<attr name="show_number" format="boolean" />
+		<attr name="aspectRatio_width" format="integer" />
+		<attr name="aspectRatio_height" format="integer" />
+	</declare-styleable>
+	<declare-styleable name="CollapseLinearLayout">
+		<attr name="expanded" format="boolean" />
+	</declare-styleable>
+	<declare-styleable name="BubbleView">
+		<attr name="title" format="string" />
+		<attr name="subtitle" format="string" />
+		<attr name="arrow" format="enum" >
+			<enum name="none" value="0" />
+			<enum name="bottom" value="1" />
+			<enum name="top" value="2" />
+			<enum name="left" value="3" />
+			<enum name="right" value="4" />
+		</attr>
+	</declare-styleable>
+
+	<declare-styleable name="NovoCardView">
+		<attr name="name_enabled" format="boolean" />
+		<attr name="date_enabled" format="boolean" />
+		<attr name="number_enabled" format="boolean" />
+	</declare-styleable>
+</resources>

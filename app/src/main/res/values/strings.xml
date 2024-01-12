@@ -1,0 +1,338 @@
+<resources>
+	<string name="app_name" translatable="false">Novo Cards</string>
+
+	<string name="i_accept">I accept</string>
+	<string name="terms_and_conditions">Terms and conditions</string>
+	<string name="i_accept_terms_and_conditions">I accept Terms and conditions</string>
+	<string name="email_login">E-mail</string>
+	<string name="email_login_error">Введите адрес эл. почты, чтобы сбросить пароль</string>
+	<string name="pass_login">Password</string>
+	<string name="enter">Sign in</string>
+	<string name="forgot_pass">Forgot password?</string>
+	<string name="sign_up">Sign up</string>
+	<string name="sign_in">Sign in</string>
+	<string name="log_in">Login</string>
+	<string name="basic_terms">Стандартные правила</string>
+	<string name="alert_dialog_close">Close</string>
+
+	<string name="basic_terms_one">Terms and Conditions are a set of rules and guidelines that a user must agree to in order to use your website or mobile app. It acts as a legal contract between you (the company) who has the website or mobile app and the user who access your website and mobile app. You can think of your Terms and Conditions agreement as the legal agreement where you maintain your rights to exclude users from your app in the event that they abuse your app, and where you maintain your legal rights against potential app abusers, and so on.
+\n\nTerms and Conditions are also known as Terms of Service or Terms of Use. t’s not required (it’s not recommended actually). This type of legal agreement can be used for both your website and your mobile app.
+\nIt’s not required (it’s not recommended actually) to have separate Terms and Conditions agreements: one for your website and one for your mobile app.</string>
+	<string name="regard_novo">С уважением, Novo</string>
+	<string name="thank_you_for_registration">Спасибо за регистрацию!</string>
+	<string name="your_discount_card">Это ваша бонусная карта.\nПокажите этот экран персоналу для сканирования</string>
+	<string name="edit_profile">Edit profile</string>
+	<string name="edit_subscription">Subscription</string>
+	<string name="discount_card">Скидочная карта</string>
+	<string name="bonus_card">Bonus card</string>
+	<string name="create_profile">Create profile</string>
+	<string name="save">Save</string>
+	<string name="get_card">Get a card</string>
+	<string name="scan_place">Scan QR</string>
+	<string name="name">Имя</string>
+	<string name="last_name">Фамилия</string>
+	<string name="my_savings">My savings</string>
+
+
+	<string name="place">Place</string>
+	<string name="choose_date">Выберите дату</string>
+	<string name="choose_place">Выберите заведение</string>
+	<string name="choose_card">Выберите карту</string>
+	<string name="choose_category">Выберите категорию</string>
+
+	<string name="open">Open</string>
+	<string name="address">Address</string>
+	<string name="ok">OK</string>
+	<string name="okay">Okay</string>
+	<string name="cancel">Cancel</string>
+	<string name="accept_dialog_title">User agreement</string>
+	<string name="accept_dialog_message">Необходимо принять условия пользовательского соглашения</string>
+	<string name="card_dialog_title">Получение карты</string>
+	<string name="subscription_dialog_title">Подписка</string>
+	<string name="subscription_dialog_message">Подписка оформлена успешно. Теперь Вы можете активировать до 200 карт</string>
+	<string name="card_dialog_message">Ваш запрос принят и находится на рассмотрении</string>
+	<string name="log_out_title">Logout</string>
+	<string name="log_out_message">Выйти из учетной записи?</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="email">E-mail</string>
+	<string name="birthday">Birthday</string>
+	<string name="cards">Cards</string>
+	<string name="settings">Settings</string>
+	<string name="notifications">Notifications</string>
+	<string name="sale_and_news">Sales and news</string>
+	<string name="log_out">Logout</string>
+	<string name="cards_notifications">Уведомления по картам</string>
+	<string name="sale_news_notifications">Уведомления по новостям и акциям</string>
+	<string name="filter">Filter</string>
+	<string name="qr_code">QR code</string>
+	<string name="application_for_a_card">Заявка на получение карты</string>
+	<string name="places">Places</string>
+	<string name="clear">Clear</string>
+
+	<string name="old_discount">Старая скидка:</string>
+
+	<string name="claim_success">Ваша жалоба успешно отправлена</string>
+	<string name="claim_failure">Жалоба не отправлена, повторите попытку позже</string>
+	<string name="profile">Profile</string>
+	<string name="website">Website</string>
+	<string name="complain">Оставить отзыв</string>
+	<string name="send">Send</string>
+	<string name="commentary">Comment</string>
+	<string name="category">Category</string>
+	<string name="sale">Sales</string>
+	<string name="news">News</string>
+	<string name="search">Search</string>
+	<string name="percent" translatable="false">%</string>
+
+	<string name="card_requested">Requested</string>
+	<string name="card_requested_click">Эта карта находится на рассмотрении</string>
+	<string name="card_deleted_click">This card is deleted</string>
+	<string name="card_not_active_click">This card is inactive</string>
+
+	<string name="card_disabled">Disabled</string>
+	<string name="card_disabled_click">This card is disabled</string>
+
+	<string name="item_place_category_all">All places</string>
+
+	// code scanner activity
+	<string name="activity_code_scanner_description">Выровняйте QR-код внутри указаной области</string>
+
+	<string name="alert_dialog_delete_card_title">Вы действительно хотите удалить эту карту?</string>
+	<string name="alert_dialog_delete_folder_title">Вы действительно хотите удалить эту папку?</string>
+	<string name="alert_dialog_delete_card_delete">Delete</string>
+	<string name="alert_dialog_delete_card_cancel">Cancel</string>
+
+	<string name="activity_instruction_skip">Skip</string>
+	<string name="activity_instruction_card_1_title">All cards in one place</string>
+	<string name="activity_instruction_card_1_text">Освободитесь от огромного количества пластиковых карт, билетов, купонов и сертификатов. Храните карты в телефоне.</string>
+	<string name="activity_instruction_card_2_title">Sales and News</string>
+	<string name="activity_instruction_card_2_text">Получайте самые интересные и свежие предложения от любимых заведений.</string>
+	<string name="activity_instruction_card_3_title">Notifications</string>
+	<string name="activity_instruction_card_3_text">Получите подтверждение запрошенной карты и живите с пользой, используя электронные карты.</string>
+	<string name="activity_instruction_card_4_title">Расширенный аккаунт</string>
+	<string name="activity_instruction_card_4_text">Расширяйте возможности приложения с помощью подписки!</string>
+
+	<string name="fragment_subscription_item_1_month_title">Подписка на 1 месяц</string>
+	<string name="fragment_subscription_item_1_month_desc">Снятие ограничений с карт сроком на 1 месяц</string>
+	<string name="expand_account">Оформить подписку</string>
+	<string name="forgot_pass_title">Отправить письмо для изменения пароля?</string>
+	<string name="register_email_title">Подтвердите адрес электронной почты </string>
+	<string name="registration_send_email_again">Отправить письмо еще раз</string>
+	<string name="registration_edit_email">Редактировать адрес эл. почты</string>
+	<string name="registration_message_sent">Письмо с подтверждением отправлено</string>
+	<string name="registration_message_sent_pass">Письмо для изменения пароля отправлено</string>
+	<string name="done">Done</string>
+	<string name="show_pass">Show</string>
+	<string name="check_confirmation_text">Проверить подтверждение</string>
+	<string name="email_not_confirmed">Ваш адрес эл. почты не подтвержден</string>
+	<string name="no_cards">No cards</string>
+	<string name="no_news">No news yet</string>
+	<string name="no_notifications">No notifications yet</string>
+	<string name="passwrord_hint">Пароль должен быть не короче 6 символов и содержать буквы и цифры</string>
+	<string name="email_hint">Введите корректный адрес электоронной почты</string>
+	<string name="error">Произошла ошибка</string>
+	<string name="field_required">Поле обязательно для заполнения</string>
+	<string name="birthday_invalid">Дата рождения указана неверно</string>
+	<string name="discount_bonus_card">Бонусы и скидка</string>
+	<string name="certificate_bonus_card">Бонусный сертификат</string>
+	<string name="certificate_discount_card">Дисконтный сертификат</string>
+	<string name="user_not_found">Пользователь не найден</string>
+	<string name="profile_saved">Профиль успешно сохранён</string>
+	<string name="saving_">Сохранение…</string>
+	<string name="network_error">Проверьте подключение к сети</string>
+	<string name="gender">Gender</string>
+	<string name="gender_">Gender: %s</string>
+	<string name="register_via_email">Register</string>
+	<string name="phone_number">Phone number</string>
+	<string name="send_code">Send code</string>
+	<string name="via_phone">Via phone number</string>
+	<string name="resend_code">Send again</string>
+	<string name="submit">Confirm</string>
+	<string name="confirmation">Confirmation</string>
+	<string name="sms_code">Code from SMS</string>
+	<string name="phone_not_confirmed">Ваш номер телефона не подтверждён</string>
+	<string name="code_invalid">Enter confirmation code</string>
+	<string name="my_discount">My discount</string>
+	<string name="my_bonuses">Мои бонусы</string>
+	<string name="my_bonuses_and_discount">Мои бонусы, скидка</string>
+	<string name="plus_n_extrabonuses">+ %s экстрабонусов</string>
+	<string name="works_to">Действуют до %s</string>
+	<string name="transactions">Transactions</string>
+	<string name="card">Card</string>
+	<string name="gift_card">Present card</string>
+	<string name="send_bonuses">Send bonuses</string>
+	<string name="delete_card">Delete card</string>
+	<string name="group_card">Group card</string>
+	<string name="contacts">Contacts</string>
+	<string name="bonuses_from_transactions">Бонусы от проведения транзакций</string>
+	<string name="your_group_card">Это ваша бонусная групповая карта.\nПокажите  этот экран персоналу для сканирования</string>
+	<string name="no_transactions">Нет транзакций по данной карте</string>
+	<string name="apply">Apply</string>
+	<string name="weekdays">ПНВТСРЧТПТСБВС</string>
+	<string name="select_date">Select date</string>
+	<string name="my_bonuses_">My bonuses:</string>
+	<string name="my_extra_bonuses_">Мои экстрабонусы:</string>
+	<string name="my_discount_">Моя скидка:</string>
+	<string name="discount_expired_">Действует до %s</string>
+	<string name="bonus_expired_">Действуют до %s</string>
+	<string name="visits_">Посещений:</string>
+	<string name="upgrade_card">Upgrade card</string>
+	<string name="bonus_count">Bonuses amount</string>
+	<string name="send_bonuses_text">Чтобы отправить свои бонусы другому пользователю - введите количество бонусов и укажите номер телефона пользователя.</string>
+	<string name="gift_card_text">Вы можете подарить свою карту с бонусами. Для этого введите номер телефона человека, которому хотите подарить карту</string>
+	<string name="present">Present</string>
+	<string name="group_transaction_desc">При проведении транзакции у других участников группы на баланс «%s» начисляются бонусы в размере:</string>
+	<string name="can_pay_with_bonuses">Бонусами можно оплатить</string>
+	<string name="min_pay_sum">Мин. сумма бонусов к оплате</string>
+	<string name="visit_to_activate">У вас %s бонусов в магазине %s, чтобы активировать бонусы поситите магазин</string>
+	<string name="you_sent_card"><![CDATA[Вы подарили бонусную  карту <font color="#9d8df4">&laquo;%s&raquo;</font> с бонусами пользователю]]></string>
+	<string name="you_sent_bonuses"><![CDATA[Вы отправили <font color="#9d8df4"><b>%s</b> бонусов</font> с карты &laquo;%s&raquo; пользователю с номером телефона]]></string>
+	<string name="you_got_group_card">Вы получили Групповую карту</string>
+	<string name="you_got_free_burger_hotburger">You received a free burger for your Hot Burger loyalty program savings.</string>
+	<string name="group_card_summary">Карта действует во всех компаниях, входящих в группу</string>
+	<string name="yet_more_bonuses">еще больше бонусов</string>
+	<string name="high_level_card">High level card</string>
+	<string name="present_from_shop">Gift from shop «%s»</string>
+	<string name="_with_better_terms">with better terms</string>
+	<string name="you_gift_card">Вам подарили карту</string>
+	<string name="to_shop_from_user">от магазина «%s», пользователь с номером</string>
+	<string name="to_card_from_user">на карту «%s», пользователь с номером</string>
+	<string name="dont_notify">Больше не уведомлять</string>
+	<string name="extrabonuses_expiring">Заканчивается срок действия экстрабонусов</string>
+	<string name="extrabonus_expire_warn_">Успейте потратить экстрабонусы в магазине «%s»</string>
+	<string name="discard">Reject</string>
+	<string name="accept">Accept</string>
+	<string name="dismiss">Dismiss</string>
+	<string name="you_receive_bounses"><![CDATA[Вам отправили <font color="#9d8df4">%s</font>]]></string>
+	<string name="conditions_on_my_card">Условия по моей карте</string>
+	<string name="other_club_cards">Другие клубные карты</string>
+	<string name="conditions_for_clients">Условия для клиентов</string>
+	<string name="name_star">Имя *</string>
+	<string name="last_name_star">Фамилия *</string>
+	<string name="gender_star">Gender *</string>
+	<string name="unsupported_qr_code">Данный QR-код не поддерживается</string>
+	<string name="place_not_found">Заведение не найдено</string>
+	<string name="happy_birthday">С днём рождения!</string>
+	<string name="website_">Site:</string>
+	<string name="my_card">Моя карта</string>
+	<string name="light_theme">Light application theme</string>
+	<string name="social">Social</string>
+	<string name="select_city">Select city</string>
+	<string name="places_search">Places search</string>
+	<string name="phone">Phone</string>
+	<string name="all_cities">All cities</string>
+	<string name="premium_account">Premium account</string>
+	<string name="call">Call</string>
+	<string name="open_with">Open with</string>
+	<string name="my_cards">My cards</string>
+	<string name="via_email">Use e-mail</string>
+	<string name="welcome">Welcome</string>
+	<string name="phone_star">Phone *</string>
+	<string name="documents">Documents</string>
+	<string name="create_folder">Create folder</string>
+	<string name="create_folder_desc">Enter a name select an icon to create a new folder for your cards. You will choose cards for this folder at the next step. Such a grouping will help you quickly find the necessary cards.</string>
+	<string name="folder_name">Folder name</string>
+	<string name="choose_icon_for_your_folder">Choose icon for your folder</string>
+	<string name="create">Create</string>
+	<string name="select_cards">Select cards</string>
+	<string name="no_documents_text">Sorry, but you do not yet have any documents in our system. You can use the added documents to store copies, send scans, and more.</string>
+	<string name="no_documents_title">List of documents is empty</string>
+	<string name="wallet">Wallet</string>
+	<string name="cantCrop">Cannot crop image. Please, select another region</string>
+	<string name="loading_">Loading…</string>
+	<string name="add_document">Add document</string>
+	<string name="document_name">Document name</string>
+	<string name="uploading_document">Uploading document</string>
+	<string name="share_s">Share %s</string>
+	<string name="in_favourites">In favourites</string>
+	<string name="no_cards_title">List of cards is empty</string>
+	<string name="no_cards_in_folder_title">This folder is empty</string>
+	<string name="no_cards_text">Sorry, but you do not yet have any cards in our system. Request cards to start using all the features of NOVO.</string>
+	<string name="no_cards_in_folder_text">Sorry, but you do not yet have any cards in this folder. Select cards, which will be found here.</string>
+	<string name="error_file_create">Cannot create temporary file</string>
+	<string name="document_not_ready">Document is not ready yet. Please, try again later</string>
+	<string name="edit_folder">Edit folder</string>
+	<string name="delete_folder">Delete folder</string>
+	<string name="edit">Edit</string>
+	<string name="share">Share</string>
+	<string name="delete_document">Delete</string>
+	<string name="alert_dialog_delete_document_title">Вы действительно хотите удалить этот документ?</string>
+	<string name="document_deleted">Document \"%s\" deleted</string>
+	<string name="type_of_folder">Type of this folder</string>
+	<string name="folder_with_cards">Folder with cards</string>
+	<string name="folder_with_docs">Folder with documents</string>
+	<string name="select_docs">Select documents</string>
+	<string name="camera_unavailable">Cannot access camera</string>
+	<string name="document_s_uploaded">Document \"%s\" successfully uploaded</string>
+	<string name="folder_changed">Folder \"%s\" was changed</string>
+	<string name="folder_created">Folder \"%s\" successfully created</string>
+	<string name="folder_deleted">Folder \"%s\" was deleted</string>
+	<string name="no_docs_in_folder_title">This folder is empty</string>
+	<string name="no_docs_in_folder_text">Sorry, but you do not yet have any documents in this folder. Select documents, which will be found here.</string>
+	<string name="my_h2beshki_">My Hot2be`shki:</string>
+	<string name="menu">Menu</string>
+	<string name="showcase_menu">Tap here to open main menu</string>
+	<string name="showcase_get_card">Tap here to get your first card</string>
+	<string name="showcase_create_folder">Click here to create a folder with your cards or documents</string>
+	<string name="show_on_map">Show on map</string>
+	<string name="showcase_map">Click here to view places on map</string>
+	<string name="showcase_choose_place">Select place from list to get bonus or discount card</string>
+	<string name="card_info">Card information</string>
+	<string name="showcase_card_info">Click here to view information about card</string>
+	<string name="document">Document</string>
+	<string name="showcase_document">Click to view document or tap and hold to share document or delete it</string>
+	<string name="you_got_card">You got a card %s</string>
+	<string name="invert_barcode">Инвертировать штрихкод</string>
+	<string name="showcase_invert_barcode">Нажмите, чтобы инвертировать цвета штрихкода. Так его будет проще отсканировать</string>
+	<string name="choose_city">Choose city</string>
+	<string name="showcase_choose_city">Choose your city from list to view places in it</string>
+	<string name="showcase_choose_category">Choose category of places to continue</string>
+	<string name="congratulations">Congratulations!</string>
+	<string name="hot_burger_priority_card_got">With the receipt of \"%s\" of the highest level with the best conditions!</string>
+	<string name="thanks">Thanks</string>
+	<string name="moonwalker" translatable="false">Moon Walker</string>
+	<string name="rockstar" translatable="false">Rock Star</string>
+	<string name="free_burgers">Free burgers</string>
+
+	<string-array name="genders">
+		<item>Unknown</item>
+		<item>Male</item>
+		<item>Female</item>
+		<item>Other</item>
+	</string-array>
+	<string-array name="folder_types">
+		<item>@string/folder_with_cards</item>
+		<item>@string/folder_with_docs</item>
+	</string-array>
+	<plurals name="bonuses">
+		<item quantity="one">%s bonus</item>
+		<item quantity="few">%s bonuses</item>
+		<item quantity="many">%s bonuses</item>
+		<item quantity="other">%s bonuses</item>
+	</plurals>
+	<plurals name="places_count">
+		<item quantity="one">%s place</item>
+		<item quantity="few">%s places</item>
+		<item quantity="many">%s places</item>
+		<item quantity="other">%s places</item>
+	</plurals>
+	<plurals name="items_count">
+		<item quantity="one">%s item</item>
+		<item quantity="few">%s items</item>
+		<item quantity="many">%s items</item>
+		<item quantity="other">%s items</item>
+	</plurals>
+	<plurals name="cards_count">
+		<item quantity="one">%s card</item>
+		<item quantity="few">%s cards</item>
+		<item quantity="many">%s cards</item>
+		<item quantity="other">%s cards</item>
+	</plurals>
+	<plurals name="docs_count">
+		<item quantity="one">%s document</item>
+		<item quantity="few">%s documents</item>
+		<item quantity="many">%s documents</item>
+		<item quantity="other">%s documents</item>
+	</plurals>
+</resources>
