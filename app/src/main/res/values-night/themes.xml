@@ -34,7 +34,7 @@
 	<attr name="bgGroupExpanded" format="reference" />
 	<attr name="bgSpace" format="reference" />
 
-	<style name="AppTheme.Dark" parent="Theme.AppCompat.NoActionBar">
+	<style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
 		<!-- Customize your theme here. -->
 		<item name="colorPrimary">#3F51B5</item>
 		<item name="colorPrimaryDark">#0c072a</item>
@@ -83,53 +83,5 @@
 		<item name="textColorNormal">@color/text_light</item>
 	</style>
 
-	<style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
-		<!-- Customize your theme here. -->
-		<item name="colorPrimary">#3F51B5</item>
-		<item name="colorPrimaryDark">#686387</item>
-		<item name="colorAccent">#43f7ff</item>
-		<item name="android:windowBackground">@color/colorBackgroundLight</item>
-		<item name="windowActionModeOverlay">true</item>
-		<item name="android:windowActionModeOverlay">true</item>
-		<item name="android:windowTranslucentStatus">false</item>
-		<item name="colorControlNormal">#4c888498</item>
-		<item name="colorControlActivated">#878397</item>
-		<item name="borderLineColor">#4c888498</item>
-		<item name="borderLineColorSecondary">#302b49</item>
-		<item name="android:textColorPrimary">@color/textColorLightPrimary</item>
-		<item name="android:textColorSecondary">@color/textColorLightSecondary</item>
-		<item name="android:textColorTertiary">@color/textColorLightTertiary</item>
-		<item name="backgroundGetCard">#FFFFFF</item>
-		<item name="iconMenuColor">#736A8D</item>
-		<item name="iconColor">#3D3B4A</item>
-		<item name="iconColorBlue">#17858D</item>
-		<item name="notificationBackgroundColor">@color/pale_grey</item>
-		<item name="substrateColor">@android:color/white</item>
-		<item name="fabColorWhite">#5050DC</item>
-		<item name="fabColorGrey">#9089B9</item>
-		<item name="fabColorNormal">#36c9da</item>
-		<item name="fabColorDisabled">#33000000</item>
-		<item name="fabColorNormalViolet">#7565D3</item>
-		<item name="fabColorPressed">#3F51B5</item>
-		<item name="fabColorPressedViolet">#2958FF</item>
-		<item name="fabColorRipple">#3918FF</item>
-		<item name="fabShadowColor">@android:color/transparent</item>
-		<item name="fabShadowColorViolet">@android:color/transparent</item>
-		<item name="fabBackground">@drawable/bg_fab_light</item>
-		<item name="fabIconColor">#444444</item>
-		<item name="semiTransparentColor">@color/background_light_transparent_30</item>
-		<item name="iconColorPrimary">#888498</item>
-		<item name="bgGroupExpandable">@drawable/bg_group_expandable_light</item>
-		<item name="bgGroupExpanded">@drawable/bg_group_expanded_light</item>
-		<item name="dialogDimColor">#B3F2F1FA</item>
-		<item name="dialogBgColor">@android:color/white</item>
-		<item name="toolbarDividerColor">@android:color/transparent</item>
-		<item name="bgSpace">@drawable/background_space_light</item>
-		<item name="bubbleColor">#7DC3D0</item>
-		<item name="dialogSubstrateColor">#eeebfb</item>
-		<item name="tabBackgroundColor">@color/pale_grey</item>
-		<item name="android:textColorLink">@color/link_light</item>
-		<item name="textColorNormal">@color/text_dark</item>
-	</style>
 
 </resources>

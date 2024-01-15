@@ -197,7 +197,7 @@
 
 	<style name="KeyboardButton">
 		<item name="android:textColor">@android:color/white</item>
-		<item name="layout_columnWeight">1</item>
+<!--		<item name="layout_columnWeight">1</item>-->
 		<item name="android:gravity">center</item>
 		<item name="android:textSize">28sp</item>
 		<item name="android:fontFamily">@font/sfp_light</item>
